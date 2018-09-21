@@ -38,6 +38,7 @@
         <th>Topics</th>
         <th>Type (Conference/Journal)</th>
         <th>Submission Date</th>
+        <th>Notification Date</th>
         <th>Event Date</th>
         <th>Comments</th>
     </tr>
@@ -357,6 +358,7 @@ Uncertain, Probabilistic Databases
 Workflows, Scientific Data Management`,
    "type":"Conference",
    "submission_date":"October 8, 2018",
+   "notification_date": "December 14, 2018",
    "event_date":"April 8-12, 2019",
    "comments":'<a href="http://conferences.cis.umac.mo/icde2019/?page_id=43"> website</a><br> This conference has two rounds of submissions.'
 },
@@ -521,6 +523,7 @@ Workflows, Scientific Data Management`,
    "topics":"",
    "type":"Conference",
    "submission_date":"3 December 2018",
+   "notification_date": "18 February 2019",
    "event_date":"",
    "comments":'<a href="https://2019.eswc-conferences.org/">website</a>'
 },
@@ -551,6 +554,10 @@ $( document ).ready(function() {
     	single_rec+= "<td>"+conf_data[i]["topics"]+"</td>";
     	single_rec+= "<td>"+conf_data[i]["type"]+"</td>";
     	single_rec+= "<td>"+conf_data[i]["submission_date"]+"</td>";
+    	if(conf_data[i]["notification_date"] === undefined){
+    		conf_data[i]["notification_date"] = "";	
+    	}
+    	single_rec+= "<td>"+conf_data[i]["notification_date"]+"</td>";
     	single_rec+= "<td>"+conf_data[i]["event_date"]+"</td>";
     	single_rec+= "<td>"+conf_data[i]["comments"]+"</td>";
     	single_rec+="</tr>\n";
