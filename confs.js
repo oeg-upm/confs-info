@@ -186,8 +186,10 @@ var conf_data = [
    "title":"Extended Semantic Web Conference (ESWC)",
    "topics":"semantic web",
    "type":"Conference",
-   "submission_date":"03-12-2018",
-   "notification_date": "18-02-2019",
+//   "submission_date":"03-12-2018",
+//   "notification_date": "18-02-2019",
+   "submission_date":"2018-12-03",
+   "notification_date": "2019-02-18",
    "event_date":"",
    "comments":'<a href="https://2019.eswc-conferences.org/">website</a>'
 },
@@ -196,19 +198,44 @@ var conf_data = [
    "title":"International Semantic Web Conference (ISWC)",
    "topics":"semantic web",
    "type":"Conference",
-   "submission_date":"03-04-2019",
+//   "submission_date":"03-04-2019",
+   "submission_date":"2019-04-03",
    "notification_date": "",
    "event_date":"",
-   "comments":""
+   "comments":"<a href='https://iswc2019.semanticweb.org/'>website</a>"
 },
 {
    "core/Q":"B",
    "title":"Internation Conference on Web Engineering (ICWE)",
    "topics":"semantic web",
    "type":"Conference",
-   "submission_date":"18-01-2019",
+//   "submission_date":"18-01-2019",
+   "submission_date":"2019-01-18",
    "notification_date": "",
    "event_date":"",
    "comments":""
+},
+{
+   "core/Q":"B",
+   "title":"International Conference on Software Engineering and Knowledge Engineering (SEKE)",
+   "topics":"knowledge engineering",
+   "type":"Conference",
+//   "submission_date":"01-03-2019",
+//   "notification_date": "20-04-2019",
+//   "event_date":"10-07-2019",
+   "submission_date":"2019-03-01",
+   "notification_date": "2019-04-20",
+   "event_date":"2019-07-10",
+   "comments":"<a href='http://ksiresearchorg.ipage.com/seke/seke19.html'>website</a><br>Software Engineering, Artificial Intelligence, Agent-based systems, Data modeling and analytics, Knowledge engineering, Big data, Security, IOT, Smart learning"
+},
+{
+   "core/Q":"A*",
+   "title":"ACM International Conference on Knowledge Discovery and Data Mining (SIGKDD)",
+   "topics":"knowledge discovery",
+   "type":"Conference",
+   "submission_date":"2019-02-03",
+   "notification_date": "2019-04-28",
+   "event_date":"2019-05-17",
+   "comments":"<a href='https://www.kdd.org/kdd2019'>website</a>"
 },
 ]
