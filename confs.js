@@ -200,8 +200,8 @@ var conf_data = [
    "type":"Conference",
 //   "submission_date":"03-04-2019",
    "submission_date":"2019-04-03",
-   "notification_date": "",
-   "event_date":"",
+   "notification_date": "2019-05-22",
+   "event_date":"2019-10-26",
    "comments":"<a href='https://iswc2019.semanticweb.org/'>website</a>"
 },
 {
