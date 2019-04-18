@@ -15,6 +15,7 @@
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
     <script type="text/javascript" src="confs.js"></script>
+    <script type="text/javascript" src="journals.js"></script>
 
 
 </head>
@@ -202,7 +203,7 @@
                     
                 </td>
                 <td>
-                    <a href="https://www.scimagojr.com/journalsearch.php?q=13579&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img height="50px" border="0" src="https://www.scimagojr.com/journal_img.php?id=13579" alt="SCImago Journal &amp; Country Rank"  /></a>
+                    <a href="https://www.scimagojr.com/journalsearch.php?q=13579&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img height="100px" border="0" src="https://www.scimagojr.com/journal_img.php?id=13579" alt="SCImago Journal &amp; Country Rank"  /></a>
                 </td>
             </tr> 
             
@@ -237,107 +238,25 @@
 
 <br>
 
-
 <section id="AI-knowledge-journals">
-    
     <h2 class="ui center aligned icon header">Here is a list of journals with a more general scope</h2>
+    <table id="confTable" class="ui celled padded table">
+<thead>
+<tr>
+    <th style="cursor:pointer" onclick="w3.sortHTML('#confTable','.item', 'td:nth-child(1)')" class="single line"> Quartile <i class="sort icon"></i></th>
+    <th style="cursor:pointer" onclick="w3.sortHTML('#confTable','.item', 'td:nth-child(2)')" class="single line"> Name <i class="sort icon"></i></th>
+    <th style="cursor:pointer" onclick="w3.sortHTML('#confTable','.item', 'td:nth-child(3)')" class="single line"> Topics <i class="sort icon"></i></th>
+    <th style="cursor:pointer" onclick="w3.sortHTML('#confTable','.item', 'td:nth-child(4)')" class="single line"> Impact Factor (Conference/Journal) <i class="sort icon"></i></th>
+    <th>Comments </th>
+</tr>
+</thead>
+<tbody id="journals_body">
 
-    <table class="ui celled padded table">
-        <thead>
-            <tr>
-                <th class="single line">Quartile</th>
-                <th>Name</th>
-                <th>Topics</th>
-                <th>Impact Factor</th>
-                <th>Comments</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <h2 class="ui center aligned header">
-                        Q1
-                    </h2>
-                </td>
-                <td>
-                    Knowledge-based Systems
-                </td>
-                <td>
-                    
-                </td>
-                <td>
-                    4.396
-                </td>
-                <td>
-                    
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h2 class="ui center aligned header">
-                        Q1
-                    </h2>
-                </td>
-                <td>
-                    Communications of the ACM
-                </td>
-                <td>
-                    
-                </td>
-                <td>
-                    3.063
-                </td>
-                <td>
-                    
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h2 class="ui center aligned header">
-                        Q1
-                    </h2>
-                </td>
-                <td>
-                    Artificial Intelligence
-                </td>
-                <td>
-                    
-                </td>
-                <td>
-                    3.034
-                </td>
-                <td>
-                    
-                </td>
-            </tr>
-            
-            <tr>
-                <td>
-                    <h2 class="ui center aligned header">
-                        Q1/Q2
-                    </h2>
-                </td>
-                <td>
-                    IEEE Intelligent Systems
-                </td>
-                <td>
-                    
-                </td>
-                <td>
-                    2.596
-                </td>
-                <td>
-                    Q1 for computer network and communication. <br> Q2 for Artificial Intelligence
-                </td>
-            </tr>
-            
-        </tbody>
-        </table>
-
+</tbody>
+</table>
 </section>
+    
 <script>
-
-
 
 $( document ).ready(function() {
     console.log( "ready!" );
@@ -362,6 +281,23 @@ $( document ).ready(function() {
     }
     $("#conf_body").html(conf_body_html);
     console.log(conf_body_html);
+});
+    
+
+$( document ).ready(function() {
+    var journals_body_html="";
+    var single_rec;
+    for(var i=0;i<journals_data.length;i++){
+    	single_rec="<tr class='item'>";
+    	single_rec+= '<td><h2 class="ui center aligned header">'+journals_data[i]["Q"]+"</h2></td>";
+    	single_rec+= "<td>"+journals_data[i]["name"]+"</td>";
+    	single_rec+= "<td>"+journals_data[i]["topics"]+"</td>";
+    	single_rec+= "<td>"+journals_data[i]["impact_factor"]+"</td>";
+    	single_rec+= "<td>"+journals_data[i]["comments"]+"</td>";
+    	single_rec+="</tr>\n";
+    	journals_body_html+=single_rec
+    }
+    $("#journals_body").html(journals_body_html);
 });
 
 </script>
