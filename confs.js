@@ -248,4 +248,14 @@ var conf_data = [
    "event_date":"2019-11-19",
    "comments":"<a href='http://www.k-cap.org/2019/index.html'>website</a>"
 },
+{
+   "core/Q":"A",
+   "title":"The IEEE International Conference on Data Engineering (ICDE)",
+   "topics":"Data, Information, Knowledge, Semantics, ...",
+   "type":"Conference",
+   "submission_date":"2019-06-08",
+   "notification_date": "2019-08-10",
+   "event_date":"2020-04-20",
+   "comments":"<a href='https://www.utdallas.edu/icde/call.html'>website</a>"
+},
 ]
