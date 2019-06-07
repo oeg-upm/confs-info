@@ -59,72 +59,16 @@ var conf_data = [
 //    "event_date":"March 26-29, 2019",
 //    "comments":'<a href="http://edbticdt2019.inesc-id.pt/?EDBT_CFP">website</a>'
 // },
-// {
-//    "core/Q":"A*",
-//    "title":"The 12th ACM International WSDM Conference on Web Search and Data Mining",
-//    "topics":` Web Search
-//    Adversarial search
-// Algorithms and systems for Web-scale search
-// Audio and touch interfaces to search
-// Distributed search, metasearch, peer-to-peer search
-// Indexing web content
-// Local and mobile search
-// Multimedia Web search
-// Query analysis and query processing
-// Search benchmarking and evaluation
-// Search user behavior and log analysis
-// Search user interfaces and interaction
-// Searching social and real-time content
-// Semantic search, faceted search, and knowledge graphs
-// Sponsored search
-// Task-driven search
-// Vertical portals and search
-// Voice search, conversational search, and dialog in search
-// Web crawling
-// Zero-query and implicit search
-// Web Mining
-// Algorithms and systems for Web-scale mining
-// Clustering, classification, and summarization of Web data
-// Data, entity, event, and relationship extraction
-// Data extraction, integration and cleaning
-// Discovery-driven Web and social network mining
-// Geo and location data analysis
-// Knowledge acquisition and automatic construction of knowledge bases
-// Large-scale graph analysis
-// Modeling trustworthiness and reliability of online information
-// Multimodal data mining
-// NLP for Web mining
-// Online and streaming algorithms for Web data
-// Opinion mining and sentiment analysis
-// Web traffic and log analysis
-// Web measurements, web evolution and web models
-// Web recommender systems and algorithms
-// Mobile Mining
-// Neural architectures for Web search and mining
-// Web search and data mining under privacy constraints
-// Social Search, Mining and Other Applications
-// Personal assistants, dialogue models, and conversational interaction
-// Collaborative search and question answering
-// Social network dynamics
-// Human computation and crowdsourcing
-// Influence and viral marketing in social networks
-// Instant messaging and social networks
-// Link prediction and community detection
-// Location-based social networks
-// Searching and mining crowd-generated data and collaboratively generated content
-// Sampling, experiments, and evaluation in social networks
-// Social media analysis: blogs and friendship networks
-// Social network analysis, theories, models and applications
-// Social reputation, influence, and trust
-// Social tagging
-// User activity modeling and exploitation
-// Interpretable models of individual and social behavior
-// Authors are explicitly discouraged from submitting papers that do not clearly present their contribution with respect to previous works, that contain only incremental results, and that do not provide significant advances over existing approaches..`,
-//    "type":"Conference",
-//    "submission_date":"8th of August, 2018",
-//    "event_date":"11-15 of Feb, 2019",
-//    "comments":'<a href="http://www.wsdm-conference.org/2019/">website</a>'
-// },
+ {
+    "core/Q": "A*",
+    "title": "The 12th ACM International WSDM Conference on Web Search and Data Mining",
+    "topics": "Web, Data, NLP, ... ",
+    "type": "Conference",
+    "submission_date": "2019-08-12",
+    "notification_date": "2019-10-12",
+    "event_date": "2020-02-03",
+    "comments": '<a href="http://www.wsdm-conference.org/2020/">website</a>'
+ },
 // {
 //    "core/Q":"A",
 //    "title":"Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)",
@@ -134,53 +78,26 @@ var conf_data = [
 //    "event_date":"April 14-17, 2019",
 //    "comments":'<a href="http://pakdd2019.medmeeting.org/Content/92892"> website</a>'
 // },
-// {
-//    "core/Q":"A*",
-//    "title":"TheWebConf (WWW)",
-//    "topics":"Semantic Web, Ontology Engineering, Web in general",
-//    "type":"Conference",
-//    "submission_date":"Oct 29, 2018",
-//    "event_date":"May 13-17, 2019",
-//    "comments":'<a href="https://www2019.thewebconf.org/">website</a>'
-// },
-// {
-//    "core/Q":" ",
-//    "title":"Combining Machine Learning with Knowledge Engineering (AAAI-MAKE)",
-//    "topics":` Knowledge Representation and Reasoning
-//        Ontologies
-//        Rule-based systems
-//        Semantic Web
-//        Machine Learning
-//        Deep Learning
-//        Neural Networks
-//        Knowledge Engineering and Management
-//        Causal Explainability
-//        Learning and Cause & Effect Relationships
-//        Learning Ontologies
-//        Using Knowledge to Guide Machine Learning`,
-//    "type":"Conference",
-//    "submission_date":"2nd of November 2018",
-//    "event_date":"25-27 of March 2019",
-//    "comments":""
-// },
-// {
-//    "core/Q":"Q1",
-//    "title":"Semantic Web Journal (SWJ)",
-//    "topics":"Special Issue on Semantic eScience: Methods, tools and applications",
-//    "type":"Journal",
-//    "submission_date":"16 November 2018",
-//    "event_date":"",
-//    "comments":"Special Issue"
-// },
-// {
-//    "core/Q":"A",
-//    "title":"Innovative Data Systems Research (CIDR)",
-//    "topics":"database systems, storage management, transaction processing, cloud computing, massive data analysis, software service infrastructure, scalability and dependability, embedded and sensor databases, user interfaces, <strong>information integration</strong> and data cleaning architectures, <strong>information retrieval</strong>, declarative systems, data management in networks, benchmarking and experimental methodology, and databases for ML and ML for databases. We also welcome submissions on thought-provoking applications and emerging uses of data management technology.",
-//    "type":"Conference",
-//    "submission_date":"August 20, 2018",
-//    "event_date":"January 13-16, 2019",
-//    "comments":'<a href="http://cidrdb.org/cidr2019/"> website</a>'
-// },
+{
+    "core/Q":"A*",
+    "title":"TheWebConf (WWW)",
+    "topics":"Semantic Web, Ontology Engineering, Web in general",
+    "type":"Conference",
+    "submission_date":"2019-10-7",
+    "notification_date": "2020-01-10",
+    "event_date":"",
+    "comments":'<a href="https://www2020.thewebconf.org/">website</a>'
+ },
+ {
+    "core/Q":"A",
+    "title":"Innovative Data Systems Research (CIDR)",
+    "topics":"cloud computing, data analysis, sensor databases, information integration, data architectures, information retrieval",
+    "type":"Conference",
+    "submission_date":"2019-08-23",
+    "notification_date": "2020-10-14",
+    "event_date":"2020-01-12",
+    "comments":'<a href="http://cidrdb.org/cidr2020/"> website</a>'
+ },
 {
    "core/Q":"A",
    "title":"Extended Semantic Web Conference (ESWC)",
@@ -226,7 +143,7 @@ var conf_data = [
    "submission_date":"2019-03-01",
    "notification_date": "2019-04-20",
    "event_date":"2019-07-10",
-   "comments":"<a href='http://ksiresearchorg.ipage.com/seke/seke19.html'>website</a><br>Software Engineering, Artificial Intelligence, Agent-based systems, Data modeling and analytics, Knowledge engineering, Big data, Security, IOT, Smart learning"
+   "comments":"<a href='http://ksiresearchorg.ipage.com/seke/seke19.html'>website</a>"
 },
 {
    "core/Q":"A*",
