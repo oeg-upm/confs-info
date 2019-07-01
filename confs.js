@@ -160,8 +160,8 @@ var conf_data = [
    "title":"International Conference on Knowledge Capture (K-CAP)",
    "topics":"",
    "type":"Conference",
-   "submission_date":"2019-06-22",
-   "notification_date": "2019-07-22",
+   "submission_date":"2019-07-20",
+   "notification_date": "2019-08-10",
    "event_date":"2019-11-19",
    "comments":"<a href='http://www.k-cap.org/2019/index.html'>website</a>"
 },
