@@ -60,6 +60,16 @@ var conf_data = [
 //    "comments":'<a href="http://edbticdt2019.inesc-id.pt/?EDBT_CFP">website</a>'
 // },
  {
+    "core/Q": "Q1",
+    "title": "Future Generation Computer Systems (Special Issue)",
+    "topics": "Special Issue on Machine Learning and Knowledge Graphs",
+    "type": "Journal",
+    "submission_date": "2019-11-30",
+    "notification_date": "2020-01-31",
+    "event_date": "2020-07-31",
+    "comments": '<a href="https://www.journals.elsevier.com/future-generation-computer-systems/call-for-papers/special-issue-on-machine-learning-and-knowledge-graphs">website</a>'
+ },
+ {
     "core/Q": "A*",
     "title": "The 12th ACM International WSDM Conference on Web Search and Data Mining",
     "topics": "Web, Data, NLP, ... ",
