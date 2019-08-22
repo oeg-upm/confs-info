@@ -98,7 +98,7 @@ Data privacy and security, concurrency, and recovery`,
     "topics":"cloud computing, data analysis, sensor databases, information integration, data architectures, information retrieval",
     "type":"Conference",
     "submission_date":"2019-08-25",
-    "notification_date": "2020-10-14",
+    "notification_date": "2019-10-14",
     "event_date":"2020-01-12",
     "comments":'<a href="http://cidrdb.org/cidr2020/"> website</a>'
  },
