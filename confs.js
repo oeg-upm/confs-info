@@ -77,6 +77,7 @@ Data privacy and security, concurrency, and recovery`,
     "title":"Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)",
     "topics":"<strong>knowledge discovery</strong>, data mining, data warehousing, machine learning, artificial intelligence, databases, statistics, <strong>knowledge engineering</strong>, visualization, decision-making systems, ...",
     "type":"Conference",
+    "notification_date": "",
     "submission_date":"",
     "event_date":"",
     "comments":''
@@ -118,7 +119,7 @@ Data privacy and security, concurrency, and recovery`,
    "type":"Conference",
    "submission_date":"",
    "notification_date": "",
-   "event_date":"=",
+   "event_date":"",
    "comments":""
 },
 {
