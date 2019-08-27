@@ -15,8 +15,13 @@
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
     <script type="text/javascript" src="confs.js"></script>
-    <script type="text/javascript" src="journals.js"></script>
+    <script type="text/javascript" src="gjournals.js"></script>
+    
+    <script src="http://tablefilter.free.fr/TableFilter/tablefilter_all_min.js"></script>
+    <link rel="stylesheet" href="http://tablefilter.free.fr/TableFilter/filtergrid.css">
 
+
+    
 
 </head>
 <body>
@@ -299,6 +304,30 @@ $( document ).ready(function() {
     }
     $("#journals_body").html(journals_body_html);
 });
+    
+
+    
+$( document ).ready(function() {
+     var table2_Props = {
+        col_0: "select",
+        col_3: "select", 
+//        col_4: "none",
+        display_all_text: " [ Show all ] ",
+        sort_select: true,
+        col_date_type: [null,null,null,null,'ymd','ymd','ymd',null],  
+        on_filters_loaded: function(o){   
+            
+        o.SetFilterValue(4,'>19-01-01');  
+        o.SetFilterValue(5,'>19-01-01');  
+        o.SetFilterValue(6,'>19-01-01');  
+        o.Filter();  
+    } 
+    };
+    var tf2 = setFilterGrid("confTable", table2_Props);
+});
+
+   
+
 
 </script>
 <br><br><br><br><br><br><br><br>

@@ -63,7 +63,7 @@ Data privacy and security, concurrency, and recovery`,
     "comments": '<a href="https://www.journals.elsevier.com/future-generation-computer-systems/call-for-papers/special-issue-on-machine-learning-and-knowledge-graphs">website</a>'
  },
  {
-    "core/Q": "A*",
+    "core/Q": "A+",
     "title": "The 12th ACM International WSDM Conference on Web Search and Data Mining",
     "topics": "Web, Data, NLP, ... ",
     "type": "Conference",
@@ -83,7 +83,7 @@ Data privacy and security, concurrency, and recovery`,
     "comments":''
  },
 {
-    "core/Q":"A*",
+    "core/Q":"A+",
     "title":"TheWebConf (WWW)",
     "topics":"Semantic Web, Ontology Engineering, Web in general",
     "type":"Conference",
@@ -143,7 +143,7 @@ Data privacy and security, concurrency, and recovery`,
    "comments":"<a href='http://ksiresearchorg.ipage.com/seke/seke19.html'>website</a>"
 },
 {
-   "core/Q":"A*",
+   "core/Q":"A+",
    "title":"ACM International Conference on Knowledge Discovery and Data Mining (SIGKDD)",
    "topics":"knowledge discovery",
    "type":"Conference",
