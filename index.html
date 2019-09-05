@@ -312,6 +312,11 @@ $( document ).ready(function() {
 
     
 $( document ).ready(function() {
+    var today = new Date()
+    d = today.getDate()
+    m = today.getMonth()+1
+    y = today.getYear() - 100
+    today_str = y + "-" + m + "-" + d
      var table2_Props = {
         col_0: "select",
         col_3: "select", 
@@ -320,10 +325,14 @@ $( document ).ready(function() {
         sort_select: true,
         col_date_type: [null,null,null,null,'ymd','ymd','ymd',null],  
         on_filters_loaded: function(o){   
-            
-        o.SetFilterValue(4,'>19-01-01');  
-        o.SetFilterValue(5,'>19-01-01');  
-        o.SetFilterValue(6,'>19-01-01');  
+                
+//        o.SetFilterValue(4,'>19-01-01');  
+//        o.SetFilterValue(5,'>19-01-01');  
+//        o.SetFilterValue(6,'>19-01-01');  
+        o.SetFilterValue(4,'>'+today_str);  
+//        o.SetFilterValue(5,'>'+today_str);  
+//        o.SetFilterValue(6,'>'+today_str);  
+
         o.Filter();  
     } 
     };

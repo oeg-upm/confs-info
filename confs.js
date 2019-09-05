@@ -30,7 +30,7 @@ Visionary`,
     "type":"Conference",
     "submission_date":"2019-10-7",
     "notification_date": "2019-11-22",
-    "event_date":"",
+    "event_date":"2020-03-30",
     "comments":'<a href="https://diku-dk.github.io/edbticdt2020/?contents=important_dates.html">website</a> Joint Conference EDBT/ICDT, the dates are for EDBT'
  },
   {
@@ -49,7 +49,7 @@ Data privacy and security, concurrency, and recovery`,
     "type":"Conference",
     "submission_date":"2019-09-15",
     "notification_date": "2019-12-05",
-    "event_date":"",
+    "event_date":"2020-03-30",
     "comments":'<a href="https://diku-dk.github.io/edbticdt2020/?contents=ICDT_CFP.html">website</a> Joint Conference The data are for ICDT here'
  },
  {
@@ -77,10 +77,10 @@ Data privacy and security, concurrency, and recovery`,
     "title":"Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)",
     "topics":"<strong>knowledge discovery</strong>, data mining, data warehousing, machine learning, artificial intelligence, databases, statistics, <strong>knowledge engineering</strong>, visualization, decision-making systems, ...",
     "type":"Conference",
-    "notification_date": "",
-    "submission_date":"",
-    "event_date":"",
-    "comments":''
+    "notification_date": "2020-01-28",
+    "submission_date":"2019-11-18",
+    "event_date":"2020-05-11",
+    "comments":'<a href="https://www.pakdd2020.org">website</a>'
  },
 {
     "core/Q":"A+",
@@ -89,7 +89,7 @@ Data privacy and security, concurrency, and recovery`,
     "type":"Conference",
     "submission_date":"2019-10-7",
     "notification_date": "2020-01-10",
-    "event_date":"",
+    "event_date":"2020-04-20",
     "comments":'<a href="https://www2020.thewebconf.org/">website</a>'
  },
  {
