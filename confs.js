@@ -28,7 +28,7 @@ Tuning, monitoring, benchmarking and performance evaluation
 User interfaces and data visualization
 Visionary`,
     "type":"Conference",
-    "submission_date":"2019-10-7",
+    "submission_date":"2019-10-07",
     "notification_date": "2019-11-22",
     "event_date":"2020-03-30",
     "comments":'<a href="https://diku-dk.github.io/edbticdt2020/?contents=important_dates.html">website</a> Joint Conference EDBT/ICDT, the dates are for EDBT'
@@ -87,7 +87,7 @@ Data privacy and security, concurrency, and recovery`,
     "title":"TheWebConf (WWW)",
     "topics":"Semantic Web, Ontology Engineering, Web in general",
     "type":"Conference",
-    "submission_date":"2019-10-7",
+    "submission_date":"2019-10-07",
     "notification_date": "2020-01-10",
     "event_date":"2020-04-20",
     "comments":'<a href="https://www2020.thewebconf.org/">website</a>'
@@ -107,20 +107,20 @@ Data privacy and security, concurrency, and recovery`,
    "title":"Extended Semantic Web Conference (ESWC)",
    "topics":"semantic web",
    "type":"Conference",
-   "submission_date":"",
-   "notification_date": "",
-   "event_date":"",
-   "comments":''
+   "submission_date":"2019-12-04",
+   "notification_date": "2020-02-19",
+   "event_date":"2020-05-31",
+    "comments":'<a href="https://2020.eswc-conferences.org"> website</a>'
 },
 {
    "core/Q":"A",
    "title":"International Semantic Web Conference (ISWC)",
    "topics":"semantic web",
    "type":"Conference",
-   "submission_date":"",
-   "notification_date": "",
-   "event_date":"",
-   "comments":""
+   "submission_date":"9999 - not yet announced",
+   "notification_date": "9999 - not yet announced",
+   "event_date":"2020-11-02",
+   "comments":'<a href="https://iswc2020.semanticweb.org"> website</a>'
 },
 {
    "core/Q":"B",
