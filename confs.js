@@ -157,10 +157,10 @@ Data privacy and security, concurrency, and recovery`,
         "title": "International Conference on Knowledge Capture (K-CAP)",
         "topics": "",
         "type": "Conference",
-        "submission_date": "2019-07-20",
-        "notification_date": "2019-08-30",
-        "event_date": "2019-11-19",
-        "comments": "<a href='http://www.k-cap.org/2019/index.html'>website</a>"
+        "submission_date": "2021-09-15",
+        "notification_date": "2021-10-13",
+        "event_date": "2021-12-02",
+        "comments": "<a href='http://www.k-cap.org/2021/cfp.html'>website</a>"
 },
     {
         "core/Q": "A",
