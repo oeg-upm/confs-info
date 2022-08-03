@@ -1,6 +1,13 @@
 var journals_data = [
     {
    "Q":"Q1 - Artificial Intelligence",
+   "name":"Information Fusion",
+   "topics":"",
+   "impact_factor":17.5,
+   "comments":"JCR"
+},
+    {
+   "Q":"Q1 - Artificial Intelligence",
    "name":"IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE",
    "topics":"",
    "impact_factor":24.3,
