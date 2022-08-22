@@ -9,3 +9,10 @@ from the group will update it.
 
 
 **Feel free to update the content, style, theme, ..., etc.** 
+
+## Run locally
+1. Install `Flask`
+2. Run Flask
+```
+flask --app app run 
+```
