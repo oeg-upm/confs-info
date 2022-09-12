@@ -1,6 +1,41 @@
 var journals_data = [
     {
    "Q":"Q1 - Artificial Intelligence",
+   "name":"IEEE Transactions on Affective Computing",
+   "topics":"",
+   "impact_factor":13.990,
+   "comments":"JCR"
+},
+    {
+   "Q":"Q1 - Artificial Intelligence",
+   "name":"APPLIED SOFT COMPUTING",
+   "topics":"",
+   "impact_factor":8.263,
+   "comments":"JCR"
+},
+    {
+   "Q":"Q1 - Artificial Intelligence",
+   "name":"INTERNATIONAL JOURNAL OF INTELLIGENT SYSTEMS",
+   "topics":"",
+   "impact_factor":8.993,
+   "comments":"JCR"
+},
+    {
+   "Q":"Q1 - Artificial Intelligence",
+   "name":"IEEE Computational Intelligence Magazine",
+   "topics":"",
+   "impact_factor":9.809,
+   "comments":"JCR"
+},
+    {
+   "Q":"Q1 - Artificial Intelligence",
+   "name":"ACM Transactions on Intelligent Systems and Technology",
+   "topics":"",
+   "impact_factor":10.489,
+   "comments":"JCR"
+},
+    {
+   "Q":"Q1 - Artificial Intelligence",
    "name":"Information Fusion",
    "topics":"",
    "impact_factor":17.5,
