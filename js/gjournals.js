@@ -144,5 +144,12 @@ var journals_data = [
       "impact_factor":2.043,
       "comments":"JCR"
    },
+        {
+      "Q":"Q1 -",
+      "name":"Expert Systems with Applications",
+      "topics":"",
+      "impact_factor":8.6,
+      "comments":"<a href='https://www.elsevier.com/journals/expert-systems-with-applications/0957-4174/guide-for-authors'>Authors Guide</a>"
+   },
                      
 ]
